@@ -1,0 +1,16 @@
+{
+  "name": "smartfind-properties",
+  "private": true,
+  "scripts": {
+    "start": "cd src/frontend && npm run dev",
+    "build": "cd src/frontend && npm run build"
+  },
+  "workspaces": [
+    "src/frontend"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  }
+}
